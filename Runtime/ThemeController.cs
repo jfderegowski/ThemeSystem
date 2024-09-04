@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 
-namespace UIThemeSystem.Runtime
+namespace NoReleaseDate.ThemeSystem.Runtime
 {
     [ExecuteInEditMode]
-    public abstract class UIThemeController : MonoBehaviour
+    public abstract class ThemeController : MonoBehaviour
     {
-        public static UIThemeManager themeManager => UIThemeManager.instance;
+        public static ThemeManager themeManager => ThemeManager.instance;
 
         protected virtual void Awake()
         {

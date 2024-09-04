@@ -1,6 +1,6 @@
 {
-    "name": "NoReleaseDate.UIThemeSystem.Runtime",
-    "rootNamespace": "",
+    "name": "NoReleaseDate.ThemeSystem.Runtime",
+    "rootNamespace": "NoReleaseDate.ThemeSystem.Runtime",
     "references": [
         "GUID:26ec800c5551ad547a45c9ce3e908543",
         "GUID:6055be8ebefd69e48b49212b09b47b2f",

@@ -1,10 +1,13 @@
 ﻿using NoReleaseDate.Extensions.Runtime;
 using UnityEngine;
 
-namespace UIThemeSystem.Runtime
+namespace NoReleaseDate.ThemeSystem.Runtime
 {
-    [CreateAssetMenu(fileName = "ColorPalette", menuName = "NoReleaseDate/UIThemeSystem/ColorPalette")]
-    public class UIThemeColorPalette : ScriptableObject
+    /// <summary>
+    /// Color Palette for the UI Theme System
+    /// </summary>
+    [CreateAssetMenu(fileName = "ColorPalette", menuName = "NoReleaseDate/ThemeSystem/ColorPalette")]
+    public class ThemeColorPalette : ScriptableObject
     {
         public Color firstColor = new Color().FromHex("#fffef5");
         public Color secondColor = new Color().FromHex("#313c50");

@@ -1,10 +1,10 @@
 ﻿using TMPro;
 using UnityEngine;
 
-namespace UIThemeSystem.Runtime
+namespace NoReleaseDate.ThemeSystem.Runtime
 {
     [RequireComponent(typeof(TMP_Text))]
-    public class UIThemeControllerText : UIThemeController
+    public class ThemeControllerText : ThemeController
     {
         public ColorType colorType;
 

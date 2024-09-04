@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-namespace UIThemeSystem.Runtime
+namespace NoReleaseDate.ThemeSystem.Runtime
 {
+    [AddComponentMenu("No Release Date/Theme System/Theme Controller Image")]
     [RequireComponent(typeof(Image))]
-    public class UIThemeControllerImage : UIThemeController
+    public class ThemeControllerImage : ThemeController
     {
         public ColorType colorType;
 
