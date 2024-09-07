@@ -1,4 +1,4 @@
-﻿using NoReleaseDate.Extensions.Runtime;
+﻿using NoReleaseDate.Common.Runtime.Extensions;
 using UnityEngine;
 
 namespace NoReleaseDate.ThemeSystem.Runtime
