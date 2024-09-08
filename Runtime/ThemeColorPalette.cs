@@ -6,7 +6,7 @@ namespace NoReleaseDate.ThemeSystem.Runtime
     /// <summary>
     /// Color Palette for the UI Theme System
     /// </summary>
-    [CreateAssetMenu(fileName = "ColorPalette", menuName = "NoReleaseDate/ThemeSystem/ColorPalette")]
+    [CreateAssetMenu(fileName = "ColorPalette", menuName = "No Release Date/Theme System/Color Palette")]
     public class ThemeColorPalette : ScriptableObject
     {
         public Color firstColor = new Color().FromHex("#fffef5");

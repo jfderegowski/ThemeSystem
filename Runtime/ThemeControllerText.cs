@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace NoReleaseDate.ThemeSystem.Runtime
 {
+    [AddComponentMenu("No Release Date/Theme System/Theme Controller Text")]
     [RequireComponent(typeof(TMP_Text))]
     public class ThemeControllerText : ThemeController
     {

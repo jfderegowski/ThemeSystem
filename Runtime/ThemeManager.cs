@@ -1,10 +1,10 @@
-using SingletonSystem.Runtime;
+using NoReleaseDate.SingletonSystem.Runtime;
 using UnityEngine;
 
 namespace NoReleaseDate.ThemeSystem.Runtime
 {
-    [CreateAssetMenu(fileName = "ThemeManager", menuName = "NoReleaseDate/UIThemeSystem/ThemeManager")]
-    public class ThemeManager : ScriptableObjectSingleton<ThemeManager>
+    [CreateAssetMenu(fileName = "ThemeManager", menuName = "No Release Date/Theme System/Theme Manager")]
+    public class ThemeManager : SingletonScriptableObject<ThemeManager>
     {
         public ThemeColorPalette current => defaultColorPalette;
         
